@@ -3,25 +3,25 @@
 $users = [
     (object)[
         'id' => 1,
-        'name' => 'ahmed',
+        'name' => 'reham',
         "gender" => (object)[
-            'gender' => 'm'
+            'gender' => 'f'
         ],
         'hobbies' => [
-            'football', 'swimming', 'running'
+            'reading', 'swimming', 'running'
         ],
         'activities' => [
             "school" => 'drawing',
             'home' => 'painting'
         ], 
-        'email'=>'ahmed@gmail.com',
+        'email'=>'reham@gmail.com',
         'phones'=>[
-            '123456789',987654321
+            '123456789'
         ]
     ],
     (object)[
         'id' => 2,
-        'name' => 'mohamed',
+        'name' => 'Eyad',
         "gender" => (object)[
             'gender' => 'm'
         ],
@@ -32,16 +32,16 @@ $users = [
             "school" => 'painting',
             'home' => 'drawing'
         ], 
-        'email'=>'mohamed@gmail.com',
+        'email'=>'eyad@gmail.com',
         'phones'=>[
             '123456789'
         ]
     ],
     (object)[
         'id' => 0,
-        'name' => 'menna',
+        'name' => 'Ahmed',
         "gender" => (object)[
-            'gender' => 'f'
+            'gender' => 'm'
         ],
         'hobbies' => [
             'running',
@@ -55,23 +55,23 @@ $users = [
     ],  
     (object)[
         'id' => 4,
-        'name' => 'reem',
+        'name' => 'rody',
         "gender" => (object)[
             'gender' => 'f'
         ],
         'hobbies' => [
-            'm',
+            'running',
         ],
         'activities' => [
             "school" => 'painting',
             'home' => 'drawing'
         ],
-        'email'=>'reem@gmail.com',
-        'phones'=>[12356465312132123132,2321563215321,561321532132]
+        'email'=>'rody@gmail.com',
+        'phones'=>[12356465312132132,2321563215321,]
     ],
 ];
 
-$table = "<table class='table'>
+$table = "<table class='table bg-success text-center text-dark'>
             <thead>
                 <tr>";
                     foreach($users[0] AS $property=>$value){
